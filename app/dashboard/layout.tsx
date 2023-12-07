@@ -1,5 +1,4 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
-import Footer from '../ui/dashboard/footer';
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -11,7 +10,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <div className="flex-grow p-6 md:overflow-y-auto md:p-12">{children}</div>
     </div>
     <div className="flex justify-center mb-4">
-      <Footer />
     </div>
     </>
   );
